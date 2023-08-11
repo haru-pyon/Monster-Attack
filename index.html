@@ -1,9 +1,21 @@
-<body>
-  <main class="py-5 grid gap-y-4 grid-cols-1 place-items-center">
-    <p id="title" class="text-center text-7xl"></p>
-    </div>
-  </main>
-  <py-script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Monster Attack</title>
+  </head>
+
+  <body>
+    <main class="py-5 grid gap-y-4 grid-cols-1 place-items-center">
+      <p id="title" class="text-center text-7xl"></p>
+      </div>
+    </main>
+
+    <py-script output="title">
 
 #!/usr/bin/env python
 # coding: utf-8
@@ -379,6 +391,6 @@ def main(player_lives, player_attack_point, run_number, answer):
 main(player_lives, player_attack_point, run_number, False)
 
 
-
   </py-script>
 </body>
+</html>
