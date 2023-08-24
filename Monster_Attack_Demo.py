@@ -69,10 +69,6 @@ def monster_power(player_attack_point):
     else:
         i = random.randint(30, 101)
     monster_attack_point = i
-    
-    # Commented out because monster seems too strong now
-    #if monster_attack_point > 0.7*player_attack_point:
-        #monster_attack_point += 0.01*player_attack_point
     return round(monster_attack_point)
 
 
